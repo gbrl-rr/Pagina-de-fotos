@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #21166e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+}
+
+menu {
+    display: flex;
+    list-style: none;
+    margin-right: 60px;
+    gap: 60px
+}
+
+#site-name {
+    font-size: 20pt;
+}
+
+#professional-photos {
+    color: white;
+    background-image: url(img/camera.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 323px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#see-more-button {
+    background-color: #21166e;
+    color: white;
+    border: thick, double, 40px;
+    width:  120px;
+    height: 40px;
+    border-color: #21166e;
+    border-style: none;
+}
+
+#about {
+    color: white;
+    background-color: #21166e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#fotos {
+    text-align: center;
+}
+
+#contract-now {
+    background-color: white;
+    color: black;
+    border: thick, double, 40px;
+    width:  120px;
+    height: 40px;
+    border-color: white;
+    border-style: none;
+    margin-bottom: 15px;
+}
+ 
+#services {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+ 
+.no-bullet {
+    list-style: none;
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+    min-height: 0;
+    min-width: 0;
+    gap: 10px;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-top: 60px;
+}
+ 
+li {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    min-width: 0;
+    flex: 1 1 0;
+    align-items: stretch;
+}
+ 
+.services-img {
+    max-height: 63px;
+    max-width: 61px;
+    align-self: center;
+}
+
+#imagens-fotos {
+    display: flex;
+    
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.imagens-img {
+    width: 100%;
+    height: 200px;
+}
+ 
+.linha {
+    display: flex;
+    vertical-align: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.informations-img {
+    width: 15px;
+    height: 15px;
+}
+
+#informations {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#h2-about {
+    margin: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #21166e;
+    color: white;
+    text-align: center;
+}
+
+.branco {
+    color: white;
+}
